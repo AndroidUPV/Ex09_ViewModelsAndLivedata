@@ -1,0 +1,13 @@
+<!--
+  ~ Copyright (c) 2022
+  ~ David de Andrés and Juan Carlos Ruiz
+  ~ Development of apps for mobile devices
+  ~ Universitat Politècnica de València
+  -->
+
+<resources>
+    <string name="app_name">Ex09_ViewModelsAndLivedata</string>
+    <!-- Content description for ImageButtons -->
+    <string name="thumb_up">Thumb up</string>
+    <string name="thumb_down">Thumb down</string>
+</resources>
