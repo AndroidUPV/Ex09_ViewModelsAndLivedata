@@ -17,9 +17,9 @@ import androidx.lifecycle.ViewModel
  */
 class LikeViewModel : ViewModel() {
 
-    // UI state (immutable): number of likes
+    // UI state (mutable): number of likes
     private val _like: MutableLiveData<Int> = MutableLiveData(0)
-    // Backing property (mutable)
+    // Backing property (immutable)
     val like: LiveData<String>
         // Int is transformed into String to be easily displayed by the UI
         get() = Transformations.map(_like) { value -> value.toString() }
